@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": ["inputs1/streamers.csv", "inputs1/streams.csv", "inputs1/users.csv", "test1/commands.txt"]
+        },
+        {
+            "type": "java",
+            "name": "Launch ProiectPOO",
+            "request": "launch",
+            "mainClass": "ProiectPOO",
+            "projectName": "proiect2023-snailphobia",
+            "args": ["inputs1/streamers.csv", "inputs1/streams.csv", "inputs1/users.csv", "test5/commands.txt"]
+        }
+    ]
+}

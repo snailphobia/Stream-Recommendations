@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="16" skipped="0" failures="0" errors="0" timestamp="2023-02-07T20:49:40" hostname="DESKTOP-GL62M7REX" time="1.455">
+  <properties/>
+  <testcase name="test2AddStream()" classname="Tests" time="1.022"/>
+  <testcase name="test12RecommendStreamAudiobook()" classname="Tests" time="0.03"/>
+  <testcase name="testTheTest()" classname="Tests" time="0.002"/>
+  <testcase name="test3DeleteStream()" classname="Tests" time="0.039"/>
+  <testcase name="test15MixedActions()" classname="Tests" time="0.05"/>
+  <testcase name="test8ListAudiobooksByAuthor()" classname="Tests" time="0.024"/>
+  <testcase name="test6SurpriseSongs()" classname="Tests" time="0.025"/>
+  <testcase name="test11RecommendStreamPodcast()" classname="Tests" time="0.021"/>
+  <testcase name="test1ListSongsFromArtists()" classname="Tests" time="0.018"/>
+  <testcase name="test10AddMultipleStreams()" classname="Tests" time="0.025"/>
+  <testcase name="test13MultipleSurpriseStreamRecommendation()" classname="Tests" time="0.025"/>
+  <testcase name="test7ListPodcastsByPodcastAuthor()" classname="Tests" time="0.025"/>
+  <testcase name="test4ListenToStream()" classname="Tests" time="0.023"/>
+  <testcase name="test9ListUsersMultipleStreams()" classname="Tests" time="0.026"/>
+  <testcase name="test14AddAndRecommendPodcasts()" classname="Tests" time="0.035"/>
+  <testcase name="test5RecommendSongs()" classname="Tests" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Readers set
+LIST LIST 0 3312
+ADD ADD 7 3312
+LIST LIST 0 3312
+Files read
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+Readers closed
+Readers set
+RECOMMEND RECOMMEND 1 700
+Files read
+Readers closed
+Readers set
+LIST LIST 0 3312
+ADD ADD 7 3312
+LIST LIST 0 3312
+DELETE DELETE 1 3312
+LIST LIST 0 3312
+Files read
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+Readers closed
+Readers set
+LIST LIST 0 516
+LISTEN LISTEN 1 516
+LIST LIST 0 2095
+LISTEN LISTEN 1 700
+LIST LIST 0 2095
+LISTEN LISTEN 1 516
+LIST LIST 0 9502
+SURPRISE SURPRISE 1 69
+Files read
+found user by ID: 516, name found: DyHhuzpes
+for stream id: 35646
+for stream id: 43524
+found streamer by ID: 2095, name found: Camila Cabello
+Listing streams for streamer: 2095
+found streamer by ID: 2095, name found: Camila Cabello
+Listing streams for streamer: 2095
+found streamer by ID: 9502, name found: Practical AI: Machine Learning & Data Science
+Listing streams for streamer: 9502
+Readers closed
+Readers set
+LIST LIST 0 4611
+LIST LIST 0 192
+Files read
+found streamer by ID: 4611, name found: Conan O'Brien Needs A Friend
+Listing streams for streamer: 4611
+found streamer by ID: 192, name found: Ken Follett
+Listing streams for streamer: 192
+Readers closed
+Readers set
+LIST LIST 0 3312
+LISTEN LISTEN 1 137
+LIST LIST 0 137
+SURPRISE SURPRISE 1 152
+Files read
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found user by ID: 137, name found: yhtszh
+for stream id: 43234
+for stream id: 24013
+Readers closed
+Readers set
+RECOMMEND RECOMMEND 1 69
+Files read
+Readers closed
+Readers set
+LIST LIST 0 137
+LIST LIST 0 3312
+Files read
+found user by ID: 137, name found: yhtszh
+for stream id: 43234
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+Readers closed
+Readers set
+ADD ADD 9 192
+LIST LIST 0 192
+ADD ADD 8 4611
+LIST LIST 0 4611
+Files read
+found streamer by ID: 192, name found: Ken Follett
+Listing streams for streamer: 192
+found streamer by ID: 4611, name found: Conan O'Brien Needs A Friend
+Listing streams for streamer: 4611
+Readers closed
+Readers set
+SURPRISE SURPRISE 1 700
+SURPRISE SURPRISE 1 516
+SURPRISE SURPRISE 1 700
+Files read
+Readers closed
+Readers set
+LIST LIST 0 9502
+LIST LIST 0 3022
+Files read
+found streamer by ID: 9502, name found: Practical AI: Machine Learning & Data Science
+Listing streams for streamer: 9502
+found streamer by ID: 3022, name found: The Nateland Podcast
+Listing streams for streamer: 3022
+Readers closed
+Readers set
+LIST LIST 0 3312
+LISTEN LISTEN 1 137
+LIST LIST 0 137
+Files read
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found user by ID: 137, name found: yhtszh
+for stream id: 43234
+for stream id: 24013
+Readers closed
+Readers set
+LIST LIST 0 516
+LIST LIST 0 700
+Files read
+found user by ID: 516, name found: DyHhuzpes
+for stream id: 35646
+for stream id: 43524
+found user by ID: 700, name found: WPUEHSf
+for stream id: 86711
+for stream id: 61887
+Readers closed
+Readers set
+ADD ADD 8 4611
+LIST LIST 0 4611
+RECOMMEND RECOMMEND 1 234
+ADD ADD 8 4611
+LIST LIST 0 4611
+SURPRISE SURPRISE 1 234
+Files read
+found streamer by ID: 4611, name found: Conan O'Brien Needs A Friend
+Listing streams for streamer: 4611
+found streamer by ID: 4611, name found: Conan O'Brien Needs A Friend
+Listing streams for streamer: 4611
+Readers closed
+Readers set
+LIST LIST 0 3312
+ADD ADD 7 3312
+LIST LIST 0 3312
+LISTEN LISTEN 1 137
+LIST LIST 0 137
+RECOMMEND RECOMMEND 1 152
+Files read
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found streamer by ID: 3312, name found: Ed Sheeran
+Listing streams for streamer: 3312
+found user by ID: 137, name found: yhtszh
+for stream id: 43234
+for stream id: 24013
+Readers closed
+]]></system-err>
+</testsuite>
